@@ -18,7 +18,8 @@ headers = []
 ext_modules = []
 
 if PY2 and sys.platform == "win32":
-    headers += [path.join(top_dir, "src", "C99", "stdint.h")]
+    headers += [path.join(top_dir, "src", "C99", "stdint.h"),
+                path.join(top_dir, "src", "C99", "inttypes.h")]
 
 setup(
     name             = about.__title__,
