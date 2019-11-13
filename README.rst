@@ -15,37 +15,49 @@ Prerequisites:
 
 + Python 2.7
 
-  * http://www.python.org/
+  * https://www.python.org/
 
 + pip and setuptools
 
-  * http://pypi.org/project/pip/
-  * http://pypi.org/project/setuptools/
+  * https://pypi.org/project/pip/
+  * https://pypi.org/project/setuptools/
 
-To install run::
+To install run:
 
-    python -m pip install --upgrade C99
+.. parsed-literal::
+
+    python -m pip install --upgrade |package|
 
 Development
 ===========
 
-Visit `development page <https://github.com/karpierz/C99>`__
+Visit `development page`_.
 
 Installation from sources:
 
-Clone the `sources <https://github.com/karpierz/C99>`__ and run::
+clone the sources:
 
-    python -m pip install ./C99
+.. parsed-literal::
 
-or on development mode::
+    git clone |respository| |package|
 
-    python -m pip install --editable ./C99
+and run:
+
+.. parsed-literal::
+
+    python -m pip install ./|package|
+
+or on development mode:
+
+.. parsed-literal::
+
+    python -m pip install --editable ./|package|
 
 Prerequisites:
 
 + Development is strictly based on *tox*. To install it run::
 
-    python -m pip install tox
+    python -m pip install --upgrade tox
 
 License
 =======
@@ -53,7 +65,7 @@ License
   | Copyright (c) 2018-2019 Adam Karpierz
   |
   | Licensed under the zlib/libpng License
-  | http://opensource.org/licenses/zlib/
+  | https://opensource.org/licenses/zlib/
   | Please refer to the accompanying LICENSE file.
 
 Authors
@@ -61,4 +73,7 @@ Authors
 
 * Adam Karpierz <adam@karpierz.net>
 
-.. _`development page`: https://github.com/karpierz/C99/
+.. |package| replace:: C99
+.. |package_bold| replace:: **C99**
+.. |respository| replace:: https://github.com/karpierz/C99.git
+.. _development page: https://github.com/karpierz/C99/
