@@ -6,7 +6,9 @@ C99 headers and libraries that are missing from the C compilers for Python2.
 Overview
 ========
 
-TODO...
+`PyPI record`_.
+
+TBD...
 
 Installation
 ============
@@ -76,4 +78,5 @@ Authors
 .. |package| replace:: C99
 .. |package_bold| replace:: **C99**
 .. |respository| replace:: https://github.com/karpierz/C99.git
+.. _PyPI record: https://pypi.org/project/C99/
 .. _development page: https://github.com/karpierz/C99/

@@ -10,7 +10,7 @@ __title__        = "C99"
 __summary__      = "C99 headers and libraries that are missing from the " \
                    "C compilers for Python2."
 __uri__          = "https://pypi.org/project/C99/"
-__version_info__ = type("version_info", (), dict(major=1, minor=0, micro=1,
+__version_info__ = type("version_info", (), dict(major=1, minor=0, micro=2,
                         releaselevel="final", serial=0))
 __version__      = "{0.major}.{0.minor}.{0.micro}{1}{2}".format(__version_info__,
                    dict(alpha="a", beta="b", candidate="rc", final="",
