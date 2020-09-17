@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.3 (2020-09-17)
+1.0.3 (2020-09-18)
 ------------------
 - Final release.
 - Setup update and cleanup.
