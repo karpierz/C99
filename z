@@ -1,0 +1,39 @@
+Index: CHANGES.rst  src/C99/__about__.py  setup.cfg
+===================================================================
+--- CHANGES.rst	(revision 12745)
++++ CHANGES.rst	(working copy)
+@@ -1,7 +1,7 @@
+ Changelog
+ =========
+ 
+-1.0.0 (2020-09-16)
++1.0.1 (2020-09-17)
+ ------------------
+ - Final release.
+ - Setup update and cleanup.
+Index:
+===================================================================
+--- setup.cfg	(revision 12743)
++++ setup.cfg	(working copy)
+@@ -77,7 +77,7 @@
+ [base]
+ setup_requires =
+     pip>=20.2.3
+-    setuptools>=44.1.1
++    setuptools>=41.2.0
+     wheel>=0.35.1
+ packagesubdir = C99
+ 
+Index: src/C99/__about__.py
+===================================================================
+--- src/C99/__about__.py	(revision 12733)
++++ src/C99/__about__.py	(working copy)
+@@ -10,7 +10,7 @@
+ __summary__      = "C99 headers and libraries that are missing from the " \
+                    "C compilers for Python2."
+ __uri__          = "https://pypi.org/project/C99/"
+-__version_info__ = type("version_info", (), dict(major=1, minor=0, micro=0,
++__version_info__ = type("version_info", (), dict(major=1, minor=0, micro=1,
+                         releaselevel="final", serial=0))
+ __version__      = "{0.major}.{0.minor}.{0.micro}{1}{2}".format(__version_info__,
+                    dict(alpha="a", beta="b", candidate="rc", final="",
