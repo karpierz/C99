@@ -4,12 +4,13 @@
 # list see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-import sys
-import os
+from os import path
+from io import open
+from glob import glob
 
-top_dir = os.path.join(os.path.dirname(__file__), os.pardir)
-
-with open(os.path.join(top_dir, "src", "C99", "__about__.py")) as f:
+top_dir = path.dirname(path.dirname(path.abspath(__file__)))
+with open(glob(path.join(top_dir, "src/*/__about__.py"))[0],
+          encoding="utf-8") as f:
     class about: exec(f.read(), None)
 
 def setup(app):
@@ -40,7 +41,7 @@ release = about.__version__
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #
-needs_sphinx = '2.0.1'
+needs_sphinx = '1.8.5'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom

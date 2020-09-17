@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.0.0 (2020-09-16)
+------------------
+- Final release.
+- Setup update and cleanup.
+
 1.0.0b2 (2019-11-13)
 --------------------
 - Setup update and cleanup.

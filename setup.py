@@ -1,17 +1,18 @@
-# Copyright (c) 2018-2019 Adam Karpierz
+# Copyright (c) 2018-2020 Adam Karpierz
 # Licensed under the zlib/libpng License
-# https://opensource.org/licenses/zlib/
-
-from __future__ import absolute_import
+# https://opensource.org/licenses/Zlib
 
 import sys
 from os import path
+from io import open
+from glob import glob
 from setuptools import setup
 
 PY2 = sys.version_info[0] <= 2
 
 top_dir = path.dirname(path.abspath(__file__))
-with open(path.join(top_dir, "src", "C99", "__about__.py")) as f:
+with open(glob(path.join(top_dir, "src/*/__about__.py"))[0],
+          encoding="utf-8") as f:
     class about: exec(f.read(), None)
 
 headers = []
