@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0.4 (2020-09-22)
+------------------
+- Setup: fix an improper dependencies versions.
+
 1.0.3 (2020-09-18)
 ------------------
 - Final release.
