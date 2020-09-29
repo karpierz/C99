@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.4 (2020-09-22)
+1.0.5 (2020-09-29)
 ------------------
 - Setup: fix an improper dependencies versions.
 
