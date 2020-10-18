@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.6 (2020-10-17)
+1.0.7 (2020-10-18)
 ------------------
 - Final release.
 - Setup: fix an improper dependencies versions.
