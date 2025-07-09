@@ -10,6 +10,8 @@ TBD...
 
 `PyPI record`_.
 
+`Documentation`_.
+
 Installation
 ============
 
@@ -39,7 +41,7 @@ Prerequisites:
 
     python -m pip install --upgrade tox
 
-Visit `development page`_.
+Visit `Development page`_.
 
 Installation from sources:
 
@@ -64,9 +66,9 @@ or on development mode:
 License
 =======
 
-  | Copyright (c) 2018-2020 Adam Karpierz
+  | |copyright|
   | Licensed under the zlib/libpng License
-  | https://opensource.org/licenses/Zlib
+  | https://opensource.org/license/zlib
   | Please refer to the accompanying LICENSE file.
 
 Authors
@@ -76,6 +78,8 @@ Authors
 
 .. |package| replace:: C99
 .. |package_bold| replace:: **C99**
+.. |copyright| replace:: Copyright (c) 2018-2025 Adam Karpierz
 .. |respository| replace:: https://github.com/karpierz/C99.git
-.. _development page: https://github.com/karpierz/C99/
+.. _Development page: https://github.com/karpierz/C99
 .. _PyPI record: https://pypi.org/project/C99/
+.. _Documentation: https://C99.readthedocs.io/

@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.0.8 (2025-02-14)
+------------------
+- Copyright year update.
+- Setup (dependencies) update.
+
 1.0.7 (2020-10-18)
 ------------------
 - Final release.
